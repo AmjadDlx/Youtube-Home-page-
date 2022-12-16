@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com Clone</title>
+
+    <link rel="icon" href="images/youtube-logo-png-2069.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="images/menu.png">
+        <img class="youtube-logo" src="icons/youtube-logo[1].svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons/search[1].svg">
+          <div class="tooltip">Search</div>
+        </button>
+        <!-- Put position absolute inside position relative -->
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon[1].svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons/upload[1].svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <img class="youtube-apps-icon" src="icons/youtube-apps[1].svg">
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons/notifications[1].svg">
+          <div class="notifications-count">3</div>
+        </div>
+        <img class="current-user-picture" src="images/WhatsApp Image 2022-12-05 at 22.08.16.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home[1].svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore[1].svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions[1].svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals[1].svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music[1].svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library[1].svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+  
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/cat4k.webp">
+            <div class="video-time">14:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/catlogo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Shades of Black 12K HDR 60fps / Dolby Vision
+              </p>
+              <p class="video-author">
+                8K HDR WORLD
+              </p>
+              <p class="video-stats">
+                3.3M views 8 months ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/instagramthumbnail.webp">
+            <div class="video-time">8:22</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/bosslogo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                BeReal - The Instagram Killer?
+              </p>
+              <p class="video-author">
+                Mrwhosetheboss
+              </p>
+              <p class="video-stats">
+                3.4M views &#183; 3 weeks ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/karrikuimage.webp">
+            <div class="video-time">9:13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/karrikkilogo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Samarthya Shastram | EP5 | Webseries | Karikku
+              </p>
+              <p class="video-author">
+                Karikku 
+              </p>
+              <p class="video-stats">
+                5.4M views &#183; 3 days ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/messithumbnail.webp">
+            <div class="video-time">22:09</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/messilogo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Lionel Messi Career Highlights
+              </p>
+              <p class="video-author">
+                The Highlight Factory
+              </p>
+              <p class="video-stats">
+                735k views &#183; 1 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/nissanthumbnail.webp">
+            <div class="video-time">11:17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/nissanlogo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Spitting R35 GTR in [4K]
+              </p>
+              <p class="video-author">
+                Woyshnis Media
+              </p>
+              <p class="video-stats">
+                6.6K views &#183; 1 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/paulwalkerthumbnail.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/paulwalkerlogo.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Paul Walker | See You Again
+              </p>
+              <p class="video-author">
+                Gamerstrix
+              </p>
+              <p class="video-stats">
+                36M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/tech.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/tech.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                Dope Tech: The iPad Pro Killer?!
+              </p>
+              <p class="video-author">
+                Marques Brownlee
+              </p>
+              <p class="video-stats">
+                36M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/travel.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/travel.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                TRAVEL - Mavic Mini Cinematic Video
+              </p>
+              <p class="video-author">
+                Denis Barbas
+              </p>
+              <p class="video-stats">
+                36M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/avatar.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/avatar.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                The Weeknd - Nothing Is Lost (You Give Me Strength) (Official Visualizer)
+              </p>
+              <p class="video-author">
+                The Weekend
+              </p>
+              <p class="video-stats">
+                36M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/240fps.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/240fps.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                240 fps Mega Laptop
+              </p>
+              <p class="video-author">
+                Toxic Reviewer
+              </p>
+              <p class="video-stats">
+                36M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/beginner.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/beginner.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                10 BEST SKILLS for BEGINNER Players
+              </p>
+              <p class="video-author">
+                AllAttack
+              </p>
+              <p class="video-stats">
+                36M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img class="thumbnail" src="images/music.webp">
+            <div class="video-time">19:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="images/music.jpg">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                renegade x under the influence x i was never there
+              </p>
+              <p class="video-author">
+                𝒍𝒆𝒕𝒚𝒐𝒖𝒅𝒐𝒘𝒏
+              </p>
+              <p class="video-stats">
+                36M views &#183; 3 year ago
+              </p>
+            </div>
+          </div>
+        </div>     
+      </section>
+    
+  </body>
+</html>
